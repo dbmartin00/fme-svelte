@@ -1,0 +1,19 @@
+<script lang="ts">
+	import { resolve } from '$app/paths';
+</script>
+
+<svelte:head>
+	<title>What is your role?</title>
+	<meta name="description" content="Define your role" />
+</svelte:head>
+
+<div class="text-column">
+	<h1>Define your role</h1>
+
+	<p>
+   Define your role by clicking a button
+	</p>
+  
+
+
+</div>
