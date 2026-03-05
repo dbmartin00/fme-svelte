@@ -4,4 +4,6 @@ export type Attributes = {
 	role?: 'foreman' | 'worker';
 };
 
-export const attributes = writable<Attributes>({});
+export const attributes = writable<Attributes>({
+  role: 'worker'
+});
